@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS [Nivel Académico] (
+	[id] CHAR(36) NOT NULL PRIMARY KEY,
+	[descripción] TEXT NOT NULL,
+	[estados] INTEGER NOT NULL
+) WITHOUT ROWID;
